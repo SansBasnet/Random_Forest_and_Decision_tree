@@ -1,4 +1,4 @@
-# Machine Learning: Decision Tree
+# Machine Learning: Decision Tree Learning 
 
 Decision tree learning is a predictive modelling and primitive supervised machine learning techniues. The decision tree starts from observation (sunny or rainy) to conclusion about the item's target value (represented in leaves.) A tree models where target variable can take a discrete value are classification trees - leaves represent class labels and branches conjuctions of features. Decision trees where the target variable can take continuous values are called regression trees. In this repo are implementatio of both trees on two different datasets. 
 
