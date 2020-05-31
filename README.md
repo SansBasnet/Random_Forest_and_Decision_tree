@@ -2,6 +2,12 @@
 
 Machine Learning decision tree algorithm on Pima diabetes and win quality datasets. 
 
+<br>
+<p align="center">
+<img src = "images/Decision tree.png"  width = "480" height = "310">
+ </p>
+<br>
+
 On code folder are two python scripts that implements a basic decision tree from Scikit to make predictions. 
 
 (1) uses dataset from Pima Indians diabetes for classification. target variable: the presence/absense of diabetes in individuals and 
