@@ -1,6 +1,6 @@
 # Machine Learning: Decision Tree
 
-Machine Learning decision tree algorithm on Pima diabetes and win quality datasets. 
+Decision tree learning is a predictive modelling and primitive supervised machine learning techniues. The decision tree starts from observation (sunny or rainy) to conclusion about the item's target value (represented in leaves.) A tree models where target variable can take a discrete value are classification trees - leaves represent class labels and branches conjuctions of features. Decision trees where the target variable can take continuous values are called regression trees. In this repo are implementatio of both trees on two different datasets. 
 
 <br>
 <p align="center">
@@ -8,6 +8,7 @@ Machine Learning decision tree algorithm on Pima diabetes and win quality datase
  </p>
 <br>
 
+Machine Learning decision tree algorithm on Pima diabetes and win quality datasets. 
 On code folder are two python scripts that implements a basic decision tree from Scikit to make predictions. 
 
 (1) uses dataset from Pima Indians diabetes for classification. target variable: the presence/absense of diabetes in individuals and 
