@@ -4,12 +4,10 @@
 
 Decision tree learning is a predictive modelling and primitive supervised machine learning techniues. The decision tree starts from observation (sunny or rainy) to conclusion about the item's target value (represented in leaves.) A tree models where target variable can take a discrete value are classification trees - leaves represent class labels and branches conjuctions of features. Decision trees where the target variable can take continuous values are called regression trees. In this repo are implementation of both trees on two different datasets. 
 
-
-<br>
+</br>
 <p align="center">
-<img src = "images/Decision tree.png"  width = "480" height = "310">
+<img src = "images/Decision tree.png"  width = "380" height = "250">
  </p>
-<br>
 
 Decision tree learning algorithm is applied on Pima diabetes and win quality datasets. 
 On the 'code' folder are two python scripts that implements a basic decision tree from Scikit to make predictions. 
@@ -27,11 +25,18 @@ In classification, an object 'clf' is created and for regression 'rgr'. Methods 
 
 # Random Forest and Bagging 
 
+Bagging = Bootstrap Aggregating
+
 ## How does random forests work?
 
 When the training set for the current tree is drawn by sampling with replacement, about one-third of the cases are left out of the sample. This oob (out-of-bag) data is used to get a running unbiased estimate of the classification error as trees are added to the forest. It is also used to get estimates of variable importance.
 
 After each tree is built, all of the data are run down the tree, and proximities are computed for each pair of cases. If two cases occupy the same terminal node, their proximity is increased by one. At the end of the run, the proximities are normalized by dividing by the number of trees. Proximities are used in replacing missing data, locating outliers, and producing illuminating low-dimensional views of the data.
+
+<br>
+<p align="center">
+<img src = "images/RF.png"  width = "480" height = "310">
+ </p>
 
 Features of Random Forest: 
 
@@ -47,6 +52,8 @@ Features of Random Forest:
 - It computes proximities between pairs of cases that can be used in clustering, locating outliers, or (by scaling) give interesting views of the data.
 - The capabilities of the above can be extended to unlabeled data, leading to unsupervised clustering, data views and outlier detection.
 - It offers an experimental method for detecting variable interactions.
+
+More about RF: https://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm#intro
 
 </br> 
 
