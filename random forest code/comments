@@ -1,15 +1,1 @@
 
-Features of Random Forests (Adopted from UC Berkeley notes)
-
-- It is unexcelled in accuracy among current algorithms.
-- It runs efficiently on large data bases.
-- It can handle thousands of input variables without variable deletion.
-- It gives estimates of what variables are important in the classification.
-- It generates an internal unbiased estimate of the generalization error as the forest building progresses.
-- It has an effective method for estimating missing data and maintains accuracy when a large proportion of the data are missing.
-- It has methods for balancing error in class population unbalanced data sets.
-- Generated forests can be saved for future use on other data.
-- Prototypes are computed that give information about the relation between the variables and the classification.
-- It computes proximities between pairs of cases that can be used in clustering, locating outliers, or (by scaling) give interesting views of the data.
-- The capabilities of the above can be extended to unlabeled data, leading to unsupervised clustering, data views and outlier detection.
-- It offers an experimental method for detecting variable interactions.
