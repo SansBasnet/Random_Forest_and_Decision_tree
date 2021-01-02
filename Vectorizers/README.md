@@ -1,4 +1,6 @@
-Process
+# Model Selection: Data Prep
+
+## Process
 
 1. Split the data into training and test set.
 2. Train vectorizers on training set and use that to transform test set.
